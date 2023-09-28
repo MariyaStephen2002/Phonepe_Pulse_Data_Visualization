@@ -44,9 +44,7 @@ df_agg_trans = pd.DataFrame(columns1)
 df_agg_trans.shape
 df_agg_trans
 
-unique_states = df_agg_trans['State'].unique()
-df_states=pd.DataFrame(unique_states)
-df_states
+
 
 path2 = "C:\\Users\\stephen\\pulse\\data\\aggregated\\user\country\\india\\state\\"
 
@@ -217,7 +215,6 @@ df_map_trans.to_csv('map_trans.csv',index=False)
 df_map_user.to_csv('map_user.csv',index=False)
 df_top_trans.to_csv('top_trans.csv',index=False)
 df_top_user.to_csv('top_user.csv',index=False)
-df_states.to_csv('state_names.csv',index=False)
 
 mydb = mysql.connect(host="localhost",user="postgres",password="stephen",database= "Phonepe_pulse",port = "5432")
 print(mydb)
