@@ -1,0 +1,18 @@
+#first clone the data from ("https://github.com/PhonePe/pulse#readme")
+
+#command the following code in the CMD to clone data to the local file
+
+
+"git clone https://github.com/PhonePe/pulse.git"
+
+   #  pip install packages
+  
+  pip install pandas
+  pip install psycopg2
+  pip install streamlit
+  pip install plotly-express
+  pip install streamlit_option_menu
+  pip install GitPython
+  pip install streamlit_option_menu 
+  pip install pillow 
+  
