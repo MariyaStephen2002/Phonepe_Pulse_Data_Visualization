@@ -4,6 +4,7 @@ The aim of this project is to develop a solution that extracts, transforms, and 
 1. Data Extraction:
 Scripting to clone the repository and collect data.
 
+
 2. Data Transformation:
 Using Python and Pandas to clean and structure the data.
 
